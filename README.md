@@ -1,14 +1,14 @@
-I can help you create a `README.md` for your IDENews Desktop CNN project. Here's a possible structure:
+I can help you create a `README.md` for your IDECNews Desktop CNN project. Here's a possible structure:
 
-![IDENews](./matrix/cec/images/logon.png)
+![IDECNews](./matrix/cec/images/logon.png)
 _____
 
 ```markdown
-# IDENews Desktop CNN
+# IDECNews Desktop CNN
 
 ## Project Overview
 
-IDENews is a desktop application designed to deliver news content, similar to a CNN-style interface. This project is developed using FreeBASIC and aims to provide a localized and efficient news consumption experience.
+IDECNews is a desktop application designed to deliver news content, similar to a CNN-style interface. This project is developed using FreeBASIC and aims to provide a localized and efficient news consumption experience.
 
 ## Features
 
@@ -32,17 +32,17 @@ IDENews is a desktop application designed to deliver news content, similar to a 
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/idenews.git
+    git clone https://github.com/your-username/IDECNews.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
-    cd IDENews
+    cd IDECNews
     ```
 3.  **Compile the source code:**
     ```bash
     fbc -lang fb -g -w all -O 3 -max-err 50 "your_main_source_file.bas"
     ```
-    *(Replace `"your_main_source_file.bas"` with the actual name of your main FreeBASIC source file, e.g., `main.bas` or `IDENews.bas`)*
+    *(Replace `"your_main_source_file.bas"` with the actual name of your main FreeBASIC source file, e.g., `main.bas` or `IDECNews.bas`)*
 
 ### Running the Application
 
@@ -56,7 +56,7 @@ Run the application:
 
 ## File Globals (`globals.bi`)
 
-The `globals.bi` file is expected to contain global declarations, constants, and shared variables used throughout the IDENews application. This typically includes:
+The `globals.bi` file is expected to contain global declarations, constants, and shared variables used throughout the IDECNews application. This typically includes:
 
 *   **Constants:** For screen dimensions, color codes, API keys (if applicable), etc.
 *   **Global Variables:** For application state, user settings, news data structures, etc.
@@ -113,7 +113,7 @@ DIM SHARED NewsFeed(10) AS NewsArticle
 
 (Optional - if you plan to accept contributions)
 
-If you'd like to contribute to IDENews, please follow these steps:
+If you'd like to contribute to IDECNews, please follow these steps:
 
 1.  Fork the repository.
 2.  Create a new branch (`git checkout -b feature/your-feature-name`).
@@ -137,10 +137,10 @@ If you have any questions or suggestions, feel free to open an issue or contact 
 
 **Key things you need to customize in the `README.md`:**
 
-*   **`https://github.com/your-username/IDENews.git`**: Replace with your actual repository URL.
+*   **`https://github.com/your-username/IDECNews.git`**: Replace with your actual repository URL.
 *   **`your_main_source_file.bas`**: Replace with the name of your main FreeBASIC source file (e.g., `main.bas`).
 *   **`src/` content**: List the actual FreeBASIC source files you have.
 *   **`globals.bi` example content**: Fill this with the actual global declarations, constants, and types you have in your `globals.bi` file.
 *   **Features, Contributing, License, Contact**: Fill these sections with your specific details.
 
-Let me know if you'd like an image to go with this! For example, a stylized logo for IDENews or a screenshot mockup of the application. 
+Let me know if you'd like an image to go with this! For example, a stylized logo for IDECNews or a screenshot mockup of the application. 
